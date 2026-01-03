@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping("/")
     public String Welcome() {
-        return "Hello World. Version-1.0";
+        return "Hello World!\nThis is Version-2.0";
     }
 }
