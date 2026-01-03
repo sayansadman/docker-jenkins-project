@@ -12,7 +12,7 @@ pipeline {
         stage('Build & Test') {
             steps {
                 sh 'chmod +x mvnw'
-                sh './mnvw clean package'
+                sh './mvnw clean package'
             }
         }
 
